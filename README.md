@@ -4,7 +4,7 @@
 ================
 Build status [![Build Status](https://travis-ci.org/cosm0s/salva-ems.svg?branch=master)](https://travis-ci.org/cosm0s/salva-ems)
 ================
-Graphana EXAMPLE Coverage [![Coverage Status](https://coveralls.io/repos/grafana/grafana/badge.png)](https://coveralls.io/r/grafana/grafana)
+Coverage [![Coverage Status](https://coveralls.io/repos/github/cosm0s/salva-ems/badge.svg?branch=master)](https://coveralls.io/github/cosm0s/salva-ems?branch=master)
 ================
 1. One
 2. Two
