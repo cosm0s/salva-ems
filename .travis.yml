@@ -6,4 +6,8 @@ python:
   - "3.4"
 install:
   - pip install -r requirements.txt
-script: nosetests
+  - pip install python-coveralls  
+script:  
+  - python setup.py install
+after_success:  
+  - coveralls 
