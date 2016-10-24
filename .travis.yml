@@ -9,6 +9,6 @@ install:
   - pip install coveralls pytest-pep8
   - py.test test/UnittestExample.py --cov=test  
 script: 
-  - py.test test/UnittestExample.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
+  - py.test test/UnittestExample.py --doctest-modules --pep8 test -v --cov test --cov-report term-missing
 after_success:  
   - coveralls 
