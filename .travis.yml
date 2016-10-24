@@ -5,8 +5,9 @@ python:
   - "3.4"
 install:
   - pip install -r requirements.txt
-  - pip install python-coveralls  
+  - pip install python-coveralls
+  - py.test test/UnittestExample.py --cov=example  
 script: 
-  - py.test test/UnittestExample.py
+  - py.test test/UnittestExample.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
 after_success:  
   - coveralls 
