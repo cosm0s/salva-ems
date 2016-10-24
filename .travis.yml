@@ -6,7 +6,6 @@ install:
   - pip install -r requirements.txt
   - pip install pytest pytest-cov
   - pip install coveralls pytest-pep8
-  - py.test test/UnittestExample.py --cov=test  
 script: 
   - py.test test/UnittestExample.py --doctest-modules --pep8 test -v --cov test --cov-report term-missing
 after_success:  
